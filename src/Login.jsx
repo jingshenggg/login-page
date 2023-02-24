@@ -24,7 +24,7 @@ function Login(props) {
         <input value={pass} onChange={setting2}type="password" placeholder="*********"  id="password" name="password"></input>
         <button>Log In</button>
       </form>
-      <button className="link-btn" onClick={() => props.onFormSwitch('register')}>New uesr? Register here</button>
+      <button className="link-btn" onClick={() => props.onFormSwitch('register')}>New user? Register here</button>
     </div>
   );
 }
