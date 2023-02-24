@@ -7,9 +7,7 @@ function Register(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(email);
-    console.log(pass);
-    console.log(name);
+    console.log(name,email,pass);
   }
   function setting1(e) {
     setEmail(e.target.value)
